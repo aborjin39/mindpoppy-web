@@ -67,9 +67,13 @@ export default function ResetPassword() {
               <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>
                 You can now open MindPoppy and log in with your new password.
               </p>
-              <a href="/" className="inline-block px-6 py-3 rounded-full text-sm font-semibold text-white transition hover:scale-105"
+              <a href="com.mindpoppy.app://login" className="inline-block px-6 py-3 rounded-full text-sm font-semibold text-white transition hover:scale-105 mb-3"
                 style={{ background: "linear-gradient(135deg, #818cf8, #ec4899)" }}>
-                Go to Homepage
+                Open MindPoppy
+              </a>
+              <br />
+              <a href="/" className="text-sm hover:text-white transition mt-2 inline-block" style={{ color: "var(--text-muted)" }}>
+                or go to homepage
               </a>
             </div>
           ) : (
